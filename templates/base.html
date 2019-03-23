@@ -31,6 +31,15 @@
                     <li class="{% block nav_blog_active %}{% endblock %}">
                         <a href="{% url 'blog_list' %}">技术博客</a>
                     </li>
+                    <li class="{% block nav_echarts_active %}{% endblock %}">
+                        <a href="{% url 'echarts_result' %}">Echarts展示</a>
+                    </li>
+                    <li class="{% block nav_data_active %}{% endblock %}">
+                        <a href="{% url 'data_result' %}">数据分析</a>
+                    </li>
+                    <li class="{% block nav_wordcloud_active %}{% endblock %}">
+                        <a href="{% url 'wordcloud_result' %}">词云展示</a>
+                    </li>
                 </ul>
 
             <ul class="nav navbar-nav navbar-right">
