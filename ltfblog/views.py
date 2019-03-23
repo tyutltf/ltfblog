@@ -98,7 +98,7 @@ def user_info(request):
     context={}
     return render(request,'user_info.html',context)
 
-def spider_result(request):
+def echarts_result(request):
     context={}
     return render(request, 'echarts_result.html', context)
 

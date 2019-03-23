@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12518d3b-884d-4580-bdb9-00dbdfd3788b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/templates/echarts_result.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/echarts_result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltfblog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltfblog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltfblog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ltfblog/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,14 +44,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="echarts_result.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/echarts_result.html">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ltfblog/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="333" column="3" selection-start-line="333" selection-start-column="3" selection-end-line="333" selection-end-column="3" />
+            <state relative-caret-position="197">
+              <caret line="29" column="47" lean-forward="true" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ltfblog/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="82">
+              <caret line="101" column="14" lean-forward="true" selection-start-line="101" selection-start-column="14" selection-end-line="101" selection-end-column="14" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="e#532#857#0" />
+                <element signature="e#882#1665#0" />
+                <element signature="e#1691#2519#0" />
+                <element signature="e#2548#3232#0" />
               </folding>
             </state>
           </provider>
@@ -112,11 +124,11 @@
         <option value="$PROJECT_DIR$/blog/templates/blog/blog_list.html" />
         <option value="$PROJECT_DIR$/templates/data.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/ltfblog/views.py" />
-        <option value="$PROJECT_DIR$/ltfblog/urls.py" />
         <option value="$PROJECT_DIR$/static/ciyun.css" />
         <option value="$PROJECT_DIR$/templates/worldcloud.html" />
         <option value="$PROJECT_DIR$/templates/echarts_result.html" />
+        <option value="$PROJECT_DIR$/ltfblog/views.py" />
+        <option value="$PROJECT_DIR$/ltfblog/urls.py" />
       </list>
     </option>
   </component>
@@ -149,6 +161,11 @@
           <expand>
             <path>
               <item name="ltfblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ltfblog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ltfblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ltfblog" type="462c0819:PsiDirectoryNode" />
               <item name="ltfblog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -609,26 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ltfblog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="33" column="75" selection-start-line="33" selection-start-column="75" selection-end-line="33" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ltfblog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="108" column="14" selection-start-line="108" selection-start-column="14" selection-end-line="108" selection-end-column="14" />
-          <folding>
-            <element signature="e#532#857#0" />
-            <element signature="e#882#1665#0" />
-            <element signature="e#1691#2519#0" />
-            <element signature="e#2548#3232#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/data.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
@@ -676,12 +673,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/echarts_result.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="333" column="3" selection-start-line="333" selection-start-column="3" selection-end-line="333" selection-end-column="3" />
+        <state relative-caret-position="115">
+          <caret line="278" column="35" lean-forward="true" selection-start-line="278" selection-start-column="35" selection-end-line="278" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ltfblog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="101" column="14" lean-forward="true" selection-start-line="101" selection-start-column="14" selection-end-line="101" selection-end-column="14" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="e#532#857#0" />
+            <element signature="e#882#1665#0" />
+            <element signature="e#1691#2519#0" />
+            <element signature="e#2548#3232#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ltfblog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="29" column="47" lean-forward="true" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
         </state>
       </provider>
     </entry>

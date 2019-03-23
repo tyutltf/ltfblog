@@ -29,7 +29,7 @@ urlpatterns = [
     path('comment/',include('comment.urls')),
     path('logout/',views.logout,name='logout'),
     path('user_info/',views.user_info,name='user_info'),
-    path('echarts_result/',views.spider_result,name='echarts_result'),
+    path('echarts_result/',views.echarts_result,name='echarts_result'),
     path('data_result/',views.data_result,name='data_result'),
     path('wordcloud_result/',views.worldcloud_result,name='wordcloud_result'),
 ]
