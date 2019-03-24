@@ -99,13 +99,11 @@ def user_info(request):
     return render(request,'user_info.html',context)
 
 def echarts_result(request):
-    context={}
-    return render(request, 'echarts_result.html', context)
+    return render(request, 'echarts_result.html')
 
 def data_result(request):
-    context={}
-    return render(request, 'data.html', context)
+    return render(request, 'data.html')
 
 def worldcloud_result(request):
-    context={}
-    return render(request, 'worldcloud.html', context)
+    return render(request, 'worldcloud.html')
+
